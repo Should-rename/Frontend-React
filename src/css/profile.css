@@ -1,0 +1,132 @@
+
+/*.profile__university{*/
+/*    font-size: 22px;*/
+/*    color: #1C768F;*/
+/*}*/
+
+.profile{
+    /*max-width: 100%;*/
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+
+    max-width: 82%;
+    max-height: 80%;
+    margin-left: 9.06%;
+    margin-right: 9.06%;
+    margin-top: 24px;
+}
+
+
+.profile__status{
+    padding: 0;
+    font-size: 24px;
+    max-width: 85%;
+    text-align: center;
+    /*margin-bottom: 22%;*/
+    color: #032539;
+}
+
+.profile__upper-status,
+.profile__lower-status {
+    margin-bottom: 0;
+}
+
+.link{
+    color: inherit;
+    text-decoration: underline;
+}
+
+.link:hover {
+    color: #FA991C;
+}
+
+/* -----------Список предлагаемых услуг----------- */
+/*.suggestion{*/
+/*    font-size: 30px;*/
+/*    margin-left: 3%;*/
+/*    color: #1C768F;*/
+/*}*/
+/*.services{*/
+/*    font-size: 25px;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    flex-wrap: wrap;*/
+/*    width: 95%;*/
+/*    margin-bottom: 5.4%;*/
+/*}*/
+/*.options{*/
+/*    margin-bottom: 2.5%;*/
+/*}*/
+
+/* ---------Кнопка "отправить заявку"--------------*/
+/*.profile__sending{*/
+/*    height: 5.3%;*/
+/*    font-size: 18px;*/
+/*    font-weight: 600;*/
+/*    font-family: 'Montserrat Alternates', sans-serif;*/
+/*    font-style: normal;*/
+/*    padding: 9px 19px 9px 19px;*/
+/*    background: #FBF3F2;*/
+/*    border: 2px solid #1C768F;*/
+/*    border-radius: 50px;*/
+/*    color: #FA991C;*/
+/*    float: right;*/
+/*    margin-left: 85%;*/
+/*}*/
+
+
+
+/* -------------Основной контент------------ */
+
+
+/* -----------ОФормление радио-кнопок----------- */
+/*.profile__radio input[type=radio] {*/
+/*    display: none;*/
+/*}*/
+
+/*.profile__radio label {*/
+/*    display: inline-block;*/
+/*    cursor: pointer;*/
+/*    position: relative;*/
+/*    padding-left: 50px;*/
+/*    margin-right: 5px;*/
+/*    margin-bottom: 20px;*/
+/*    user-select: none;*/
+/*}*/
+/*.profile__radio label:before {*/
+/*    content: "";*/
+/*    display: inline-block;*/
+/*    width: 30px;*/
+/*    height: 30px;*/
+/*    position: absolute;*/
+/*    left: 0;*/
+/*    bottom: 0;*/
+/*    background-image: url(./images/profile/unchecked.svg);*/
+/*    background-repeat:no-repeat;*/
+/*}*/
+
+/*!* Checked *!*/
+/*.profile__radio input[type=radio]:checked + label:before {*/
+/*    background-image: url(./images/profile/checked.svg);*/
+/*    background-repeat:no-repeat;*/
+/*}*/
+
+/*!* Hover *!*/
+/*.profile__radio label:hover:before {*/
+/*    filter: brightness(120%);*/
+/*}*/
+
+/*!* -----------------Адаптив---------------- *!*/
+/*@media (max-width: 1682px){*/
+/*    .profile__sending{*/
+/*        font-size: 17px;*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 1100px){*/
+/*    .profile__sending{*/
+/*        font-size: 16px;*/
+/*    }*/
+/*}*/

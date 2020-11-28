@@ -1,0 +1,14 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat Alternates', sans-serif;
+
+    font-size: 15px;
+    color: #032539;
+    background:#FBF3F2;
+}
